@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   
+       <link
+       rel="stylesheet"
+       href="https://unpkg.com/swiper/swiper-bundle.min.css"
+     />
+     <link rel="stylesheet" href="./css/style.css">
+ 
+ 
+    <title>Movie</title>
+</head>
+<body>
+    <div class="header">
+        <div class="horiz">
+            <div class="search">
+                <input class="input" value type="text" placeholder="Search...">
+            </div>
+            <div class="header-right-side">
+                <div>
+                    <img class="add " src="./images/Group 1981.png" alt="add icon">
+                </div>
+                <div>
+                    <img class="notif" src="./images/notif.png" alt="notification">
+                </div>
+                <div>
+                    <img class="user-img" src="./images/profile.jpg" alt="user img">
+                </div>
+                <p>Thomas Jackson</p>
+                <div>
+                    <img class="arrow" src="./images/chevron-down.png" alt="down arrow">
+                </div>
+            </div>
+        </div>
+    </div>
+   
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/1.jpg" alt=""></div>
+            <div class="swiper-slide"> <img src="./images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./images/3.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div id="movieContainer">
+        <h2 class="all-movies">All Movies</h2>
+        <ul id="movies-ul">
+
+        </ul>
+      </div>
+  
+     
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="./js.js"></script>
+</body>
+</html>
